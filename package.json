@@ -1,0 +1,31 @@
+{
+  "name": "nodejs_testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index_1.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "mocha --recursive --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/himanshuteotia/nodejs_testing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/himanshuteotia/nodejs_testing/issues"
+  },
+  "homepage": "https://github.com/himanshuteotia/nodejs_testing#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "chai": "^4.2.0",
+    "express": "^4.17.1",
+    "mocha": "^7.1.1",
+    "mongodb-memory-server": "^6.5.0",
+    "mongoose": "^5.9.7",
+    "nodemon": "^2.0.2",
+    "supertest": "^4.0.2"
+  }
+}
